@@ -4,7 +4,7 @@
 This project space has been created to allow candidates to essentially put in and showcase their work. Your contributions to this project are an indication of your prowess in Unity development!
 
 ## Getting Started
-1. **Download the Unity version** - Start by downloading the same Unity version used by this empty project ```2023.2.0f1```
+1. **Download the Unity version** - Start by downloading the same Unity version used by this empty project ```2022.3.15f1```
 1. **Clone the Repository** - Clone this repository to your local machine.
 3. **Open the Project** - Open Unity Hub, click 'Add', navigate to the cloned repository, and add the project.
 
