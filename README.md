@@ -15,20 +15,21 @@ This structure helps the students better understand the topics they need to focu
 
 1. Follow [the instructions below](#getting-started) to set up your project. 
     * Please **do not fork this repository**, instead just clone it on your local machine.
-    * Make sure to leverage any third-party libraries needed to keep the code as small as possible. We have provided a few pre-installed libraries that we think will be useful.
+    * Make sure to leverage any third-party libraries needed to keep the code as small as possible.
+    * We have provided all the visual assets and a few pre-installed libraries that you can directly use.
 2. Read [the requirements](#requirements) and [the grading criteria below](#grading). Implement the feature, following the given requirements.
 3. Record a max 1-minute demo video, briefly showing the features you have implemented, following the Acceptance Test below. 
-    * You will share your recording as a video file (any major format is acceptable: LV, MOV, MPEG, MPG, MP4, WEBM, WMV).
+    * Please share your recording as a video file (any major format is acceptable: LV, MOV, MPEG, MPG, MP4, WEBM, WMV).
     * We recommend using the native OS screen recording feature ([Mac](https://support.apple.com/en-us/102618), [Windows](https://www.microsoft.com/en-us/windows/learning-center/how-to-record-screen-windows-11))
+    * You do not need to narrate or explain the code structure. Please just focus on demonstrating the functionality. 
 4. Submit your work by following [the instructions below](#submitting-your-work).
 
 ## Getting Started
 1. **Download the Unity version** - Start by downloading the same Unity version used by this project ```2022.3.15f1```
-2. **Clone the Repository** - Clone this repository to your local machine.
+2. **Clone the Repository** - Run `git clone -b rwa/unity-development-v2 https://github.com/trilogy-group/ws-eng-unity-assessment` locally.
 3. **Open the Project** - Open Unity Hub, click 'Add', navigate to the cloned repository, and add the project.
 
 ## Requirements
-
 Build a 3D Unity game based on the following requirements:
 * Use [this API](https://ga1vqcu3o1.execute-api.us-east-1.amazonaws.com/Assessment/stack) to fetch data about the Stacks. 
     * There are 3 stacks for 3 different grades (6th, 7th, and 8th grade).
@@ -60,13 +61,12 @@ Below is an example of how such a game may look:
 ## Submitting your Work
 At the end of this assessment, please submit your work by doing the following:
 * Add the demo video to the root folder of your local clone of the repository,
-* Take one screenshot of your game (showing the three towers) and place it in the root folder of your local clone of the repository
+* Take one screenshot of your game (showing the stacks) and place it in the root folder of your local clone of the repository
 * Run the `./submit.ps1` or `./submit.sh` script provided in this repository. The script will create a `zip` file.
 * Briefly check the `zip` file's contents to ensure your code, video, and screenshot are there.
 * Lastly, continue running the script to upload the zip to our servers.
 
 ## Grading
-
 Your work will be graded along the following criteria:
 * **Completeness**: The final code should be functional, produce the desired output without significant errors, defects, or limitations, and address all the requirements, with minimal inconsistencies between requirement specifications and outputs (e.g., related to tower structure).
 * **Code Quality**: The code written should be clean, efficient, consistent with the provided code, and adhere to typical game architecture, SOLID coding practices, and Unity best practices.
