@@ -1,0 +1,1 @@
+Please place your demo video and screenshot(s) in this folder.
