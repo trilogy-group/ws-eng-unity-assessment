@@ -15,7 +15,8 @@ This structure helps the students better understand the topics they need to focu
 ## Your Work
 
 1. Follow [the instructions below](#getting-started) to set up your project.
-   - Please **do not fork this repository**, instead just clone it on your local machine.
+   - Please **do not fork this repository**, instead just clone it on your local machine. You will share your code changes as a ZIP at the end.
+   - When writing code, make sure to be on the `rwa/unity-development-v2` branch. Pull it regularly to ensure you have the latest changes from the remote.
    - Leverage any third-party libraries needed to keep the code as small as possible.
    - We have provided all the visual assets and a few pre-installed libraries that you can directly use.
 2. Read [the requirements](#requirements) and [the grading criteria below](#grading). Implement the feature, following the given requirements.
@@ -73,7 +74,7 @@ At the end of this assessment, please submit your work by doing the following:
 - Take one screenshot of your game (showing the stacks) and place it in the `Demo` folder of this repository,
 - Run the [SubmissionTool](./Assets/Jenga3DModule/Scripts/Editor/SubmissionTool.cs) from the Crossover -> Submit Unity Editor menu. The tool will create a `zip` file.
 - Briefly check the `zip` file's contents to ensure your code, video, and screenshot are there.
-- Lastly, continue running the tool to upload the zip to our servers.
+- Lastly, continue running the tool to upload the zip to our servers. If this step fails, please upload the ZIP to Google Drive and share the link with us instead of the submission ID.
 
 ## Grading
 
